@@ -8,6 +8,7 @@
 </head>
 <body>
 
+  <!-- HERO -->
   <section class="hero">
     <div class="overlay"></div>
 
@@ -19,28 +20,60 @@
       <h1>TREINOS URBANOS</h1>
       <p class="subtitle">Vem fazer parte do nosso movimento</p>
 
-      <a href="https://chat.whatsapp.com/CjzRgBBbJyI2xBozoNQY5g" class="btn-primary" target="_blank">
-        Entrar no grupo
-      </a>
+      <!-- BOTÕES (estrutura correta) -->
+      <div class="hero-buttons">
+        <a href="https://chat.whatsapp.com/CjzRgBBbJyI2xBozoNQY5g"
+           class="btn-primary"
+           target="_blank"
+           rel="noopener">
+          Entrar no grupo
+        </a>
+
+        <a href="https://www.instagram.com/urbtrain"
+           class="btn-primary"
+           target="_blank"
+           rel="noopener">
+          Siga no Instagram
+        </a>
+      </div>
     </div>
   </section>
 
+  <!-- CONTAGEM REGRESSIVA -->
   <section class="countdown-section">
     <p class="countdown-label">PRÓXIMO CORRE EM:</p>
+
     <div class="timer" id="timer">
-      <div class="time-box"><span id="days">00</span><small>DIAS</small></div>
-      <div class="time-box"><span id="hours">00</span><small>HORAS</small></div>
-      <div class="time-box"><span id="minutes">00</span><small>MIN</small></div>
-      <div class="time-box"><span id="seconds">00</span><small>SEG</small></div>
+      <div class="time-box">
+        <span id="days">00</span>
+        <small>DIAS</small>
+      </div>
+
+      <div class="time-box">
+        <span id="hours">00</span>
+        <small>HORAS</small>
+      </div>
+
+      <div class="time-box">
+        <span id="minutes">00</span>
+        <small>MIN</small>
+      </div>
+
+      <div class="time-box">
+        <span id="seconds">00</span>
+        <small>SEG</small>
+      </div>
     </div>
   </section>
 
- <section class="dia-treino">
+  <!-- DIA DO TREINO -->
+  <section class="dia-treino">
     <span class="dia-label">DIA DO TREINO</span>
-    <h2 class="dia-semana">TERÇA-FEIRA</h2>
+    <h2 class="dia-semana">SEGUNDA-FEIRA</h2>
     <p class="dia-desc">Treino fixo semanal</p>
   </section>
 
+  <!-- INFORMAÇÕES -->
   <section class="info">
     <div class="info-card">
       <span>🏃</span>
@@ -51,14 +84,39 @@
       <span>📍</span>
       <h3>Pracinha do Campo do Vasquinho</h3>
       <p>Interlagos</p>
+
+      <a href="https://www.google.com/maps/search/?api=1&query=Campo+do+Vasquinho+Interlagos+Linhares"
+         target="_blank"
+         rel="noopener"
+         class="btn-outline">
+        Ver localização
+      </a>
     </div>
   </section>
 
+  <!-- CTA -->
   <section class="cta">
     <h2>DISCIPLINA · CONSTÂNCIA · EVOLUÇÃO</h2>
     <a href="#" class="btn-outline">Quero correr com vocês</a>
   </section>
 
+  <!-- SOCIAL -->
+  <section class="social-section">
+    <div class="social-container">
+      <span class="dia-label">COMUNIDADE</span>
+      <h2>SIGA A GENTE NO INSTAGRAM</h2>
+      <p>Acompanhe nossos treinos e faça parte do movimento urbano.</p>
+
+      <a href="https://www.instagram.com/urbtrain"
+         class="btn-primary"
+         target="_blank"
+         rel="noopener">
+        @URBTRAIN
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
   <footer>
     <p class="footer-frase">“Aqui não é só corrida. É movimento.”</p>
     <p class="footer-copy">© URBTRAIN — Corrida Urbana</p>
