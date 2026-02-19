@@ -94,9 +94,14 @@ body {
   align-items: center;
   justify-content: center;
 
-  width: 260px;
+ width: 260px;
   max-width: 90%;
+  
+  /* ADICIONE ESTA LINHA ABAIXO */
+  margin: 0 auto; 
+  
   padding: 16px 20px;
+  /* ... resto do código ... */
 
   background: #fff;
   color: #000;
